@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  list-style: none;
+  color: white;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: rgb(19, 19, 80);
+  &__firstpart {
+    display: flex;
+    width: 80%;
+    margin: 20px 30px 50px 190px;
+    & h3 {
+      margin-right: 845px;
+    }
+    &__pics {
+      margin: 0 20px;
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+  }
+  & hr {
+    width: 80%;
+    margin: 50px auto;
+  }
+
+  &__secondpart {
+    display: flex;
+    margin-bottom: 25px;
+    margin-left: 195px;
+    &__list {
+      margin-right: 60px;
+      margin-bottom: 25px;
+    }
+    & li {
+      line-height: 25px;
+    }
+  }
+  & h5 {
+    margin-bottom: 25px;
+  }
+  &__thirdpart {
+    display: flex;
+    margin-bottom: 25px;
+    &__input {
+      width: 50%;
+    }
+  }
+  & h5 {
+    margin-bottom: 15px;
+  }
+  & input {
+    height: 60px;
+    border-radius: 6px;
+    border: 1px solid lightgrey;
+  }
+
+  & button {
+    text-transform: uppercase;
+    border: 1px solid #23a6f0;
+    background-color: #23a6f0;
+    color: white;
+    height: 63px;
+    border-radius: 6px;
+  }
+  & li {
+    line-height: 25px;
+  }
+}
